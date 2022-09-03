@@ -1,0 +1,14 @@
+﻿@page
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@model IndexModel
+@{
+    ViewData["Title"] = "Backoffice";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Backoffice!</h1>
+    <p>You are at <strong>@Configuration["env"]</strong> environment.</p>
+    <br />
+    <p>Go to <a href="@Configuration["projectdemo"]">ProjectDemo</a>.</p>
+</div>
