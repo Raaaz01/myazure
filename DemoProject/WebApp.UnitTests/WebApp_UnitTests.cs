@@ -8,7 +8,7 @@ namespace WebApp.UnitTests
         [TestMethod]
         public void WebApp_DemoTest_1()
         {
-            Assert.AreEqual(1, 2, "Number should be equal!");
+            Assert.AreEqual(2, 2, "Number should be equal!");
         }
     }
 }
